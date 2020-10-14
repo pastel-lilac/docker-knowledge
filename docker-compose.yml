@@ -29,7 +29,7 @@ services:
             - "db"
         labels:
             - "traefik.enable=true"
-            - "traefik.http.routers.wiki.rule=Host(`wiki.pastel-lilac.com`)"
+            - "traefik.http.routers.wiki.rule=Host(`wiki.inamurab.kmdkuk.com`)"
             - "traefik.http.routers.wiki.entrypoints=websecure"
             - "traefik.http.routers.wiki.tls.certresolver=myhttpchallenge"
     db:

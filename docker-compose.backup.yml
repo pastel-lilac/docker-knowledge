@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backup:
+    build:
+      dockerfile: job/cron/Dockerfile
+      context: .
+    volumes:
+      - ./volumes:/app/volumes
